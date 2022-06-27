@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zxx">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +7,7 @@
   <title>Travel</title>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/PNG/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/PNG/favicon-travel.png">
 </head>
 <body>
 <header id="header" class="header">
@@ -22,16 +22,16 @@
      <nav class="header__nav">
        <ul class="header__list">
         <li class="header__item">
-          <a href="index.html" class="header__link">How It Works</a>
+          <a href="#intro-home" class="header__link">How It Works</a>
         </li>
          <li class="header__item">
-           <a href="articles.html" class="header__link">Plan Your Trip</a>
+           <a href="#benefits" class="header__link">Plan Your Trip</a>
          </li>
          <li class="header__item">
-           <a href="Locations.html" class="header__link">Destinations</a>
+           <a href="#places" class="header__link">Destinations</a>
          </li>
          <li class="header__item">
-           <a href="#videos" class="header__link">Travel Stories</a>
+           <a href="#stories" class="header__link">Travel Stories</a>
          </li>
        </ul>
        <div class="header__nav-close">
@@ -49,7 +49,7 @@
   </div>
 </header>
 <main class="main">
-  <section class="intro-home">
+  <section class="intro-home" id="intro-home">
     <div class="wrapper intro__wrapper">
         <div class="intro__container">
             <h1 class="intro__title">
@@ -69,7 +69,7 @@
       
     </div>
    </section>
-   <section class="benefits">
+   <section class="benefits" id="benefits">
      <div class="wrapper benefits__wrapper">
        <h2 class="benefits__title section-title">
         3 STEPS TO THE PERFECT TRIP
@@ -107,7 +107,7 @@
    <!--*Places start*/-->
 
 
-   <section class="places">
+   <section class="places" id="places">
      <div class="wrapper places__wrapper">
        <h2 class="places__title section-title">
         POPULAR DESTINATIONS
@@ -157,7 +157,7 @@
 
 
 <!-- Stories start-->
-    <section class="stories">
+    <section class="stories" id="stories">
       <div class="wrapper">
         <h2 class="stories__title section-title">
           TRAVEL STORIES
@@ -260,11 +260,18 @@
         <div class="footer__copy">
           All Rights Reserved © Travel Portal
         </div>
-        <div class="footer__social">
-          <img src="img/svg/insta-icon.svg" alt="instagram" title="instagram" class="footer__social-link">
-          <img src="img/svg/video-icon.svg" alt="video" title="video" class="footer__social-link">
-          <img src="img/svg/twitter-icon.svg" alt="twitter" title="twitter" class="footer__social-link">
-        </div>
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a href="https://github.com/dikhorsun" class="footer__link">
+              <img src="img/svg/github.svg" alt="instagram" title="instagram" class="footer__link-icon">
+            </a>
+          </li>
+          <li class="footer__item2">
+            <a href="https://rs.school/js-stage0/" class="footer__link">
+              <img src="img/svg/rs_school_js.svg" alt="video" title="video" class="footer__link-icon">
+            </a>
+          </li>
+         </ul>
       </div>
     </div>
   </footer>

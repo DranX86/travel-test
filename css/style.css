@@ -86,6 +86,7 @@ html{
   box-sizing: border-box}
 *, *::before, *::after {
 box-sizing: inherit;
+scroll-behavior: smooth
 }
 body{
   font-family: 'Red Hat Text';
@@ -257,11 +258,11 @@ figure{
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
-  padding-top: 25px;
+  padding-top: 19px;
   margin: 0 auto;
 }
 .header__logo{
-  margin-right: 45px;
+  margin-right: 0px;
 }
 
 .header__logo-pig{
@@ -278,6 +279,7 @@ figure{
 .header__list {
   display: flex;
   flex-wrap: wrap;
+  padding-right: 29px;
   }
 .header__item {
   margin-right: 42px;
@@ -344,7 +346,7 @@ figure{
   line-height: 96px;
   color: #FFFFFF;
   padding-top: 122px;
-  margin: 0 0 27px;
+  margin: 0 0 32px;
 }
 .intro__subtitle {
   max-width: 892px;
@@ -375,7 +377,7 @@ figure{
   min-width: 22px;
   background: none;
   border: none;
-  margin-right: 137.5px;
+  margin-right: 144px;
   padding-left: 41px;
   font-weight: 500;
   font-size: 18px;
@@ -466,7 +468,7 @@ margin-bottom: 97px;
   justify-content: space-between;
   position: relative;
   margin-right: 60px;
-  margin-bottom: 10px;
+  margin-bottom: 19px;
 }
 
 .places__card3{
@@ -489,7 +491,7 @@ margin-bottom: 97px;
   line-height: 42px;
   color: #FFFFFF;
   left: 15px;
-  bottom: 40px;
+  bottom: 46px;
 }
 .places__card-link {
   position: absolute;
@@ -523,7 +525,7 @@ margin-bottom: 97px;
   margin-bottom: 93.5px;
 }
 .places__button{
-  padding: 10px 32px;
+  padding: 14px 34px;
   text-decoration: none;
   font-size: 24px;
   line-height: 1.31;
@@ -559,10 +561,7 @@ margin-bottom: 97px;
 .stories__story{
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 30px;
-}
-.stories__story:last-child{
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 .story__pic{
   flex: 0 1 33.33%;
@@ -594,13 +593,19 @@ margin-bottom: 97px;
   line-height: 24px;
   text-decoration-line: underline;
   color: #0D606F;
+  transition: 0.3s all;
 }
+.story__info-link:hover, .story__info-link:active, .story__info-link:focus{
+  opacity: .4;
+}
+
 .stories__more{
+  padding-top: 24px;
   text-align: center;
 }
 
 .stories__button{
-  padding: 13.5px 31px;
+  padding: 13.5px 38px;
   text-decoration: none;
   font-size: 24px;
   line-height: 1.31;
@@ -632,23 +637,31 @@ margin-bottom: 97px;
 }
 .footer__copy{
   margin-right: 27.45%;
+  padding-bottom: 10px;
   font-size: 16px;
   line-height: 21px;
   color: #FFFFFF;
 }
-
-.footer__social-link{
+.footer__list {
+  display: flex;
+  flex-wrap: wrap;
+  }
+.footer__item {
   margin-right: 20px;
   width: 33.65px;
 }
-
-.footer__social-link:last-child{
-  margin-right: 0;
+.footer__item2 {
+  width: 87.3px;
 }
 
-.footer__menu-link:hover, .footer__menu-link:active, .footer__menu-link:focus{
+.header__link {
+  transition: 0.3s all;
+}
+.footer__link:hover, .footer__link:active, .footer__link:focus{
   opacity: .65;
 }
+
+
 
 
 
